@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css">
+    <title>Modèle</title>
+</head>
+<body>
+    <div class="page top" data-page="top">
+        <div class="container">
+            <div class="card-container">
+            <div class="card" id="card1">
+                    <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolor.</h1>
+                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <div class="lettering">
+                        <h1>4Rr</h1>
+                    </div>
+            </div> 
+            <div class="card" id="card2">
+                <img src="paint.png" alt="paint">
+                <button>
+                    <a href="#about" id="btn" data-to="about">About<i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+<!--ABOUT PAGE-->
+    <div class="page about" data-page="about" hidden>
+        <div class="container">
+        <div class="paint-explainer">
+            <div class="large-img-container">
+                <img src="paint.png" alt="Martha and Mary Magdalene is a painting by the Italian Baroque master Michelangelo Merisi da Caravaggio. It is in the Detroit Institute of Arts. Alternate titles include Martha Reproving Mary, The Conversion of the Magdalene, and the Alzaga Caravaggio." class="big-paint">
+                <button>
+                    <a href="#top" id="btn" data-to="top">Home<i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </button>
+                <div class="line"></div>
+                <div class="blur-ellipse"></div>
+            </div>
+            <div class="explication">
+                <p>Martha and Mary Magdalene is a painting by the Italian Baroque master Michelangelo Merisi da Caravaggio. It is in the Detroit Institute of Arts. Alternate titles include Martha Reproving Mary, The Conversion of the Magdalene, and the Alzaga Caravaggio.</p>
+                <div class="paint-details">
+                    <span class="year">Year : 1598</span>
+                    <span class="style"> Style : Baroque</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
