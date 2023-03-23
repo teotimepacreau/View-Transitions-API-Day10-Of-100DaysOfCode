@@ -118,7 +118,6 @@ body {
   display: grid;
   grid-template-columns: var(--rythmeS) auto var(--rythmeS);
   place-items: center;
-  height: 100dvh;
 }
 .card-container {
   grid-column: 2 / 3;
@@ -137,7 +136,7 @@ body {
   border-radius: 1rem;
   padding: var(--rythmeS);
   background-color: var(--bg);
-  height: 80dvh;
+  height: 90dvh;
 }
 #card1 > * + * {
   margin-top: var(--rythmeS);
