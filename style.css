@@ -166,7 +166,7 @@ body {
 }
 
 .lettering > * {
-  font-size: calc(5*var(--tailleh1));
+  font-size: calc(3*var(--tailleh1));
 }
 
 button {
