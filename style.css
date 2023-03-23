@@ -64,7 +64,7 @@ a {
 @font-face {
   font-family: "Projekt-Blackbird";
   src: local("Projekt-Blackbird"),
-  url("Projekt-Blackbird.woff2") format("woff2");
+  url("Projekt-blackbird.woff2") format("woff2");
 }
 
 @font-face {
