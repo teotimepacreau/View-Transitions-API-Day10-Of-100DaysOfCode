@@ -68,12 +68,6 @@ a {
 }
 
 @font-face {
-  font-family: "Hanson-Bold";
-  src: local("Hanson-Bold"),
-  url("Hanson-Bold.woff2") format("woff2");
-}
-
-@font-face {
   font-family: 'Satoshi-Variable';
   src: local("Satoshi-Variable"),
   url("Satoshi-Variable.woff2") format("woff2");
