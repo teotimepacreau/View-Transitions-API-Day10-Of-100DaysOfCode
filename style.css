@@ -62,8 +62,8 @@ a {
 
 /* FONTS */
 @font-face {
-  font-family: "Projekt-Blackbird";
-  src: local("Projekt-Blackbird"),
+  font-family: "Projekt-blackbird";
+  src: local("Projekt-blackbird"),
   url("Projekt-blackbird.woff2") format("woff2");
 }
 
@@ -107,7 +107,7 @@ h1 {
 
 
 body {
-  font-family: "Projekt-Blackbird";
+  font-family: "Projekt-blackbird", sans-serif;
   background-color: var(--txt);
 }
 
@@ -184,7 +184,7 @@ button {
   gap: calc(0.25*var(--rythmeS));
   text-decoration: none;
   font-size: var(--tailleparagraphe);
-  font-family: "Satoshi-Variable";
+  font-family: "Satoshi-Variable", sans-serif;
   font-weight: 600;
   background-color: var(--darktint1);
 }
